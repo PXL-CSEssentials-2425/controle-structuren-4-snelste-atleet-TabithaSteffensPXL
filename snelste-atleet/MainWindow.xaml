@@ -13,9 +13,9 @@
         <TextBox x:Name="timeTextBox" HorizontalAlignment="Left" Margin="201,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
         <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="34,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335" Height="170" Background="#FFB5B4B4" FontSize="14"/>
         <Button x:Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="499,167,0,0" VerticalAlignment="Top" FontSize="16" Height="47" Width="120" Click="newButton_Click"/>
-        <Button x:Name="calculateButton" Content="Snelste Atleet" HorizontalAlignment="Left" Margin="499,242,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="120"/>
-        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Margin="499,306,0,0" VerticalAlignment="Top" FontSize="16" Height="42" Width="120"/>
-        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="499,369,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="120"/>
+        <Button x:Name="calculateButton" Content="Snelste Atleet" HorizontalAlignment="Left" Margin="499,242,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="120" Click="calculateButton_Click"/>
+        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Margin="499,306,0,0" VerticalAlignment="Top" FontSize="16" Height="42" Width="120" Click="clearButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="499,369,0,0" VerticalAlignment="Top" FontSize="16" Height="43" Width="120" Click="closeButton_Click"/>
 
     </Grid>
 </Window>
